@@ -1,0 +1,109 @@
+
+html{
+    height: 100%;
+}
+.app{
+    background-color: white;
+    display: flex;
+    width:300px;
+    height: 480px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    border: 2px solid gray;
+    border-radius:4px;
+    
+    
+}
+
+body{
+    height: 100%;
+    background: lightcyan;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.buttons
+{
+    width:200px;
+    height: 350px;
+    display: grid;
+    grid-template-columns: 50px 50px 50px 50px;
+    margin-top: 15px;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    gap: 15px;
+
+
+}
+.btn
+{
+    font-size: 20px;
+    color:black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border:2px black;
+    border-radius: 10px;
+    box-shadow: 2px 2px 1px lightgray;
+    width: 60px;
+    height: 60px;
+
+    background-color: white;
+    cursor: pointer;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+.btn:hover{
+    background: lightgray;
+    transition: all ease-in 0.1s ;
+    font-weight: bold;
+}
+
+
+.clear,.backspace,.percent,.division,.multiplication,.addition,.subraction,.equals,.decimal,.deletion
+{
+    color: orange;
+
+}
+
+.equals
+{
+    background-color: orange;
+    color: white;
+}
+
+.equals:hover
+{
+    background-color:orange;
+    color: white;
+    font-weight: bolder;
+}
+
+.iarea
+{
+ width: 250px;
+ height: 50px;
+display: flex;
+align-items: center;
+justify-content: center;
+ border-radius: 10px;
+ outline: none;
+ border: 2px solid gray;
+    text-align: end;
+ font-size: xx-large;
+}
+.resultarea {
+    
+    width: 250px;
+    position: inherit;
+    height: 45px;
+    display: grid;
+}
+

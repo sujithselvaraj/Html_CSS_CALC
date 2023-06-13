@@ -1,0 +1,51 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Calculator</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+
+<form name="app" class="app">
+    
+        <div class="resultarea">
+                <input type="text" class="iarea" value='0' name="input"  id="display-box" oninput="{handleInput(event)}" required>
+        </div>
+                
+         </div>  
+        <div class="buttons">
+
+                <input type="button" value="7" class="btn"  name="num">
+                <input type="button" value="8" class="btn" name="num">
+                <input type="button" value="9" class="btn" name="num">
+                <input type="button" value="*" class="btn multiplication" name="num">
+                <input type="button" value="4" class="btn" name="num">
+                <input type="button" value="5" class="btn" name="num">
+                <input type="button" value="6" class="btn" name="num">
+                <input type="button" value="-" class="btn subraction" name="num">
+                <input type="button" value="1" class="btn" name="num" >
+                <input type="button" value="2" class="btn" name="num">
+                <input type="button" value="3" class="btn" name="num">
+                <input type="button" value="+" class="btn addition"name="num">
+                <input type="button" value="00" class="btn power" name="num" >
+
+                <input type="button" value="0" class="btn" name="num">
+                <input type="button" value="%" class="btn percent" name="num">
+
+                <input type="button" value="/" class="btn division" name="num">
+                <input type="button" value="C" class="btn clear" onclick=remAll() >
+
+                <input type="button" value="DEL" class="btn deletion" onclick=deletion()>
+                <input type="button" value="." class="btn decimal" name="num">
+
+                <input type="button" value="=" class="btn equals" onclick=calc() >
+
+
+         </div>
+         <script src="index.js"></script>
+</form>
+</body>
+</html>
